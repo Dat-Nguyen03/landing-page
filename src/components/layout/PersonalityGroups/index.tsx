@@ -50,7 +50,6 @@ export default function PersonalityGroups({}: Props) {
   ];
   const [imageActive, setImageActive] = useState(data[0].image);
   const handleClick = (index: number, item: any) => {
-    console.log(index, item);
     // return;
     setOpenIndex(openIndex === index ? null : index);
     setImageActive(item.image);
@@ -65,11 +64,11 @@ export default function PersonalityGroups({}: Props) {
   return (
     <section className="mt-[100px] px-5 md:px-[30px] lg:px-[120px]">
       <div className="mb-[60px]">
-        <h2 className="md:text-[38px] lg:text-[52px] leading-[78px] font-extrabold text-primary_color flex items-center gap-2 justify-center">
+        <h2 className="text-[30px] md:text-[38px] lg:text-[52px] md:leading-[78px] font-extrabold text-primary_color flex items-center gap-2 justify-center">
           Các nhóm tính cách{" "}
           <img
             src={disc}
-            className="w-[100px] md:h-[35px] lg:h-[50px]"
+            className="w-[50px] md:w-[100px] md:h-[35px] lg:h-[50px]"
             alt=""
           />
         </h2>
