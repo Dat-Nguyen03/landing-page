@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
   return (
-    <section className=" px-5 md:px-0 mt-[98px] w-full overflow-hidden">
+    <section className=" px-5 md:px-0 mt-10 md:mt-[98px] w-full overflow-hidden">
       <div className="relative w-full flex flex-col md:flex-row items-center justify-between">
         <div className="hidden md:block">
           <img
