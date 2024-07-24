@@ -86,18 +86,18 @@ export default function PersonalityGroups({}: Props) {
                 }}
                 className={`border border-[${item.color}] p-6 rounded-3xl cursor-pointer overflow-hidden transition-all duration-500 select-none`}
                 style={{
-                  height: openIndex === index ? contentHeight : 80,
+                  height: openIndex === index ? contentHeight : 75,
                 }}
               >
                 <div className="flex items-center justify-between mb-[18px]">
                   <div className="flex gap-x-2 ">
                     <h5
-                      className={`text-[${item.color}] font-bold text-[24px]`}
+                      className={`text-[${item.color}] font-bold text-[20px] md:text-[24px]`}
                     >
                       {item.title}
                     </h5>
                     {"  "}
-                    <p className="text-primary_color  font-bold text-[24px]">
+                    <p className="text-primary_color  font-bold text-[20px] md:text-[24px]">
                       ({item.subTitle})
                     </p>
                   </div>
