@@ -3,7 +3,7 @@ import disc1 from "../../../assets/images/disc1.png";
 import disc2 from "../../../assets/images/disc2.png";
 import disc3 from "../../../assets/images/disc3.png";
 import disc4 from "../../../assets/images/disc4.png";
-import discBg from "../../../assets/images/DISC.png";
+import discBg from "../../../assets/images/disc.png";
 export default function Definition({}: Props) {
   return (
     <section className="mt-[60px] lg:mt-[132px] md:mt-[78px] px-5 md:px-[100px] lg:px-[120px]">
