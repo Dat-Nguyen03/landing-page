@@ -102,7 +102,7 @@ export default function PersonalityGroups({}: Props) {
                 }}
                 className={`border ${item.borderColor} p-6 rounded-3xl cursor-pointer overflow-hidden transition-all duration-500 select-none`}
                 style={{
-                  height: openIndex === index ? contentHeight : 77,
+                  height: openIndex === index ? contentHeight : 82,
                 }}
               >
                 <div className="flex items-center justify-between mb-[18px]">
@@ -113,7 +113,7 @@ export default function PersonalityGroups({}: Props) {
                       {item.title}
                     </h5>
                     {"  "}
-                    <p className="text-primary_color  font-normal text-[20px] md:text-[24px]">
+                    <p className={`text-primary_color  font-normal text-[20px] md:text-[24px]`}>
                       ({item.subTitle})
                     </p>
                   </div>
@@ -125,7 +125,7 @@ export default function PersonalityGroups({}: Props) {
                     }`}
                   ></i>
                 </div>
-                <p className="text-base leading-[24px] text-primary_color font-normal font-Be_Vietnam_Pro ">
+                <p className={`text-base leading-[24px] text-primary_color font-normal font-Be_Vietnam_Pro  ${openIndex !==  index ?"opacity-0":"opacity-100"}`}>
                   {item.content}
                 </p>
               </div>
@@ -134,7 +134,7 @@ export default function PersonalityGroups({}: Props) {
                   <img
                     src={imageActive}
                     alt=""
-                    className="w-full md:w-[278px] -mr-[10%]"
+                    className="w-full md:w-[278px]"
                   />
                 </div>
               )}
@@ -144,7 +144,7 @@ export default function PersonalityGroups({}: Props) {
         <div className="w-[40%] text-center hidden lg:block">
           <img
             src={imageActive}
-            className={` h-[calc(100%-10px)] ${openIndex === 0 || openIndex === 3 ? "-mt-[35px]" :""}`}
+            className={` h-[calc(100%+10px)] ${openIndex === 0 || openIndex === 3 ? "-mt-[35px]" :""}`}
             alt=""
               // style={{
               //   height: height +50,
