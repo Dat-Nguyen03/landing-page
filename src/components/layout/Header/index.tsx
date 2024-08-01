@@ -2,7 +2,8 @@ type Props = {};
 import { useEffect, useRef, useState } from "react";
 import logo from "../../../assets/images/logo.png";
 import bar from "../../../assets/images/bar.png";
-import times from "../../../assets/images/times.png";
+import times from "../../../assets/images/times.svg";
+import menu from "../../../assets/images/menu.svg"
 import "./styles.css";
 export default function Header({}: Props) {
   const [openMenu, setOpenMenu] = useState(false);
@@ -35,7 +36,7 @@ export default function Header({}: Props) {
         {/* {openMenu && ( */}
         <ul
           ref={menuRef}
-          className="hidden lg:flex flex-col lg:flex-row lg:items-center gap-x-10  h-screen md:h-auto text-primary_color lg:static fixed z-50 w-full top-[80px] left-0 px-5 md:px-10 lg:px-0 bg-[#FFFBF2] lg:bg-none pb-10 lg:pb-0 border-b border-b-[#F7E8C5]"
+          className="hidden lg:flex flex-col lg:flex-row lg:items-center gap-x-10  h-screen md:h-auto text-primary_color lg:static fixed z-50 w-full top-[80px] left-0 px-5 md:px-10 lg:px-0 bg-[#FFFBF2] lg:bg-none pb-10 lg:pb-0 border-b border-b-[#F7E8C5] lg:border-none font-Be_Vietnam_Pro"
         >
           <li>
             <a href="" className="text-base lg:py-2 inline-block py-2">
@@ -50,7 +51,7 @@ export default function Header({}: Props) {
           <li>
             <a
               href=""
-              className="text-base  lg:py-2 inline-block py-2 lg:font-[700] lg:border-b-[3px] border-primary_color"
+              className="text-base relative lg:py-2 inline-block py-2 lg:font-[700] after:h-[1px] lg:after:h-[2.5px] after:w-full  after:bg-primary_color after:inline-block after:absolute after:bottom-3 lg:after:bottom-0 after:left-1/2 after:transform after:translate-x-[-50%] after:transition-all after:duration-300  after:rounded-tl-[12px] after:rounded-tr-[12px] md:after:hidden lg:after:inline-block "
             >
               DISC
             </a>
@@ -78,9 +79,9 @@ export default function Header({}: Props) {
         )}
         <button onClick={handleToggleMenu} className="block lg:hidden">
           <img
-            src={!openMenu ? bar : times}
+            src={!openMenu ?  menu: times}
             alt=""
-            className={`${openMenu ? "p-2" : ""}`}
+            className={"p-2"}
           />
         </button>
       </div>

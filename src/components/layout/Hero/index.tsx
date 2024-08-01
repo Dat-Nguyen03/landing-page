@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
   return (
-    <section className=" px-5 md:px-0 mt-10 md:mt-[98px] w-full overflow-hidden">
+    <section className=" px-5 md:px-0 mt-6 md:mt-10 lg:mt-[98px] w-full overflow-hidden">
       <div className="relative w-full flex flex-col md:flex-row items-center justify-between">
         <div className="hidden md:block">
           <img
@@ -15,16 +15,20 @@ export default function Hero({}: Props) {
           />
         </div>
         <div className="lg:w-[759px] lg:h-[400px] text-center flex flex-col items-center">
-          <div className="flex  md:w-[680px] md:h-[140px] lg:w-auto h-auto items-center justify-center">
-            <h2 className="text-primary_color font-extrabold text-[26px] w-full md:text-[40px] lg:text-[55px] text-center px-3 md:px-0">
-              Khám Phá Tính Cách Của Bạn Với Trắc Nghiệm{" "}
-              <img
+          <div className=" w-screen  md:w-[680px] md:h-[140px] lg:h-auto lg:w-auto h-auto ">
+            <h2 className="text-primary_color font-normal text-[34px] w-full md:text-[48px] lg:text-[64px] text-center px-1 md:px-0 font-Anton ">
+              Khám Phá Tính Cách Của Bạn Với Trắc Nghiệm{" "} 
+              <span className="text-[#EA635D]">D</span>
+              <span className="text-[#FFCD65]">I</span>
+              <span className="text-[#57CE81]">S</span>
+              <span className="text-[#5495DA]">C</span>
+              {/* <img
                 src={disc}
                 className="w-[100px] h-[26px] md:h-[35px] lg:h-[50px] inline-block"
-              />
+              /> */}
             </h2>
           </div>
-          <p className="w-[420px] h-[52px] text-base mt-6 px-10 md:px-0">
+          <p className="w-[420px] h-[52px] text-base mt-6 px-10 md:px-0 font-Be_Vietnam_Pro">
             Bắt đầu hành trình khám phá ngay hôm nay và mở ra cánh cửa đến với
             sự hiểu biết sâu sắc hơn về bản thân
           </p>
@@ -41,7 +45,7 @@ export default function Hero({}: Props) {
           <img
             src={heroImg2}
             alt=""
-            className="md:w-[183px] w-[183px] h-[165px] md:h-[165px] lg:w-[310px] lg:h-[280px] object-cover md:absolute lg:static -right-[13%] top-[60%] -mr-[25%] md:-mr-0"
+            className="md:w-[183px] w-[183px] h-[165px] md:h-[165px] lg:w-[310px] lg:h-[280px] object-cover md:absolute lg:static -right-[13%] top-[60%] -mr-[25%] md:mr-[5%]"
           />
         </div>
       </div>

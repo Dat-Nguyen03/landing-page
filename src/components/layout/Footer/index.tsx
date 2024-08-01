@@ -1,14 +1,14 @@
 import footerLogo from "../../../assets/images/footerLogi.png";
 import footerImg1 from "../../../assets/images/footerImg.png";
 import footerImg2 from "../../../assets/images/footerImg2.png";
-import fb from "../../../assets/images/fb.png";
-import x from "../../../assets/images/x.png";
-import insta from "../../../assets/images/insta.png";
+import fb from "../../../assets/images/fb.svg";
+import x from "../../../assets/images/x.svg";
+import insta from "../../../assets/images/insta.svg";
 type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <footer className="mt-[100px]  relative bg-[#21283A] lg:px-[120px]">
+    <footer className="lg:mt-[100px] md:mt-[80px] mt-[60px]  relative bg-[#21283A] lg:px-[120px]">
       <div className="md:pt-10 lg:pt-[64px] md:px-[30px] lg:px-[80px] flex justify-between flex-col md:flex-row px-5 pt-10">
         <div className="md:w-[60%] lg:w-[40%] md:pr-20 ">
           <img

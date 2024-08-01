@@ -10,6 +10,8 @@ module.exports = {
     },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
+      Be_Vietnam_Pro: ["Be Vietnam Pro", "sans-serif"],
+      Anton : ["Anton", "sans-serif"],
     },
   },
   plugins: [],

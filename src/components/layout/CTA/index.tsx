@@ -12,7 +12,7 @@ type Props = {};
 
 export default function CTA({}: Props) {
   return (
-    <section className="mt-[100px] px-5 md:px-[30px] lg:px-[120px]">
+    <section className="lg:mt-[100px] md:mt-[80px] mt-[60px] px-5 md:px-[30px] lg:px-[120px]">
       <div className="relative h-[560px] md:h-[482px] lg:h-[473px] bg-[#21283A] rounded-[40px] ">
         <div className="relative h-full overflow-hidden">
           <div className="absolute top-[40px] left-[40px] md:left-[105px] select-none">
@@ -46,7 +46,7 @@ export default function CTA({}: Props) {
         </div>
         <div className="absolute top-0 left-1/2 -translate-x-1/2">
           <div className="flex justify-center items-center w-[295px] h-[120px] md:w-[844px] md:h-[108px] mx-auto ">
-            <p className="text-white text-center mt-[120px] md:text-[18px] lg:text-[20px] ">
+            <p className="text-white text-center mt-[120px] md:text-[18px] lg:text-[20px]  font-Be_Vietnam_Pro lg:px-20 font-medium">
               Bài trắc nghiệm tính cách{" "}
               <span className="text-[#EA635D]">D</span>
               <span className="text-secondary_color">I</span>
@@ -63,21 +63,21 @@ export default function CTA({}: Props) {
         </div>
       </div>
 
-      <div className="mt-[100px] md:h-[560px] bg-secondary_color rounded-[40px] md:p-10 lg:p-[64px] px-5 pt-10 pb-5">
+      <div className="lg:mt-[100px] md:mt-[80px] mt-[60px] md:h-[560px] bg-secondary_color rounded-[40px] md:p-10 lg:p-[64px] px-5 pt-10 pb-5">
         <div className="text-center">
-          <h3 className=" text-[30px] md:text-[48px] lg:text-[42px] text-primary_color font-extrabold lg:font-bold md:leading-[60px] lg:leading-[78px] pl:px-10">
+          <h3 className=" text-[30px] md:text-[48px] lg:text-[52px] text-primary_color   md:leading-[60px] lg:leading-[78px] pl:px-10 font-Anton font-normal">
             Sẵn Sàng Khám Phá Tính Cách Của Bạn?
           </h3>
-          <p className="mt-4 text-sm md:text-base leading-[24px] text-primary_color text-center">
+          <p className="mt-4 text-sm md:text-base leading-[24px] text-primary_color text-center font-Be_Vietnam_Pro font-normal lg:w-[55%] mx-auto">
             Hãy thực hiện bài trắc nghiệm DISC ngay hôm nay để hiểu rõ hơn về
-            bản thân và cách bạn có thể tận dụng thế mạnh của mình trong công
+            bản thân  và cách bạn có thể tận dụng thế mạnh của mình trong công
             việc và cuộc sống
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-y-5 md:gap-y-0 items-center justify-between md:gap-x-5 mt-10 lg:px-10">
+        <div className="flex flex-col md:flex-row gap-y-6 md:gap-y-0 items-center justify-between md:gap-x-5 mt-10 lg:px-10">
           <div className="relative group cursor-pointer">
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center gap-x-4 bg-[#EA635D] rounded-[40px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500">
-              <p className="text-white text-[20px] leading-[30px] font-[700]">
+              <p className="text-white text-[20px] leading-[30px] font-[700] font-Be_Vietnam_Pro">
                 Thực hiện ngay
               </p>
               <img src={arrow} alt="" />
@@ -86,7 +86,7 @@ export default function CTA({}: Props) {
           </div>
           <div className="relative group cursor-pointer">
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center gap-x-4 bg-[#57CE81] rounded-[40px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500">
-              <p className="text-white text-[20px] leading-[30px] font-[700]">
+              <p className="text-white text-[20px] leading-[30px] font-[700] font-Be_Vietnam_Pro">
                 Thực hiện ngay
               </p>{" "}
               <img src={arrow} alt="" />
@@ -95,7 +95,7 @@ export default function CTA({}: Props) {
           </div>
           <div className="relative group cursor-pointer">
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center gap-x-4 bg-[#5495DA] rounded-[40px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500">
-              <p className="text-white text-[20px] leading-[30px] font-[700]">
+              <p className="text-white text-[20px] leading-[30px] font-[700] font-Be_Vietnam_Pro">
                 Thực hiện ngay
               </p>{" "}
               <img src={arrow} alt="" />
