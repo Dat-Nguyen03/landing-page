@@ -51,7 +51,7 @@ export default function CTA({}: Props) {
               Bài trắc nghiệm tính cách{" "}
               <span className="text-[#EA635D]">D</span>
               <span className="text-secondary_color">I</span>
-              <span className="text-[#Cha mẹ làm cho con]">S</span>
+              <span className="text-[#57CE81]">S</span>
               <span className="text-[#5495DA]">C</span> không chỉ giúp bạn{" "}
               <br /> khai phá được sức mạnh của bản thân. Đây còn là công cụ hỗ
               trợ tuyển dụng và quản lý nhân sự hiệu quả.
