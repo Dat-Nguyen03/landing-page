@@ -1,6 +1,5 @@
 import heroImg1 from "../../../assets/images/hero-1.png";
 import heroImg2 from "../../../assets/images/hero-2.png";
-import disc from "../../../assets/images/disc.png";
 type Props = {};
 
 export default function Hero({}: Props) {

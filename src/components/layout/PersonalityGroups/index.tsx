@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import disc from "../../../assets/images/disc.png";
 import img1 from "../../../assets/images/img1.png";
 import img2 from "../../../assets/images/img2.png";
 import img3 from "../../../assets/images/img3.png";
@@ -10,7 +9,6 @@ export default function PersonalityGroups({}: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const itemsRefs = useRef<(HTMLDivElement | null)[]>([]);
   const ref = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
   const [contentHeight, setContentHeight] = useState(0);
   const data = [
     {
@@ -61,7 +59,6 @@ export default function PersonalityGroups({}: Props) {
   const [imageActive, setImageActive] = useState(data[0].image);
   const handleClick = (index: number, item: any) => {
     // return;
-    console.log(openIndex === index);
     
     setOpenIndex(openIndex === index ? index : index);
     setImageActive(item.image);
@@ -72,9 +69,7 @@ export default function PersonalityGroups({}: Props) {
       const height = itemsRefs?.current[openIndex]?.scrollHeight;
       setContentHeight(height || 0);
     }
-    if(ref.current){
-      setHeight(ref.current.scrollHeight);
-    }
+   
   }, [openIndex]);
   
   return (

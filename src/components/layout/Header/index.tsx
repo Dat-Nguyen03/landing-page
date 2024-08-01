@@ -1,7 +1,6 @@
 type Props = {};
 import { useEffect, useRef, useState } from "react";
 import logo from "../../../assets/images/logo.png";
-import bar from "../../../assets/images/bar.png";
 import times from "../../../assets/images/times.svg";
 import menu from "../../../assets/images/menu.svg"
 import "./styles.css";
