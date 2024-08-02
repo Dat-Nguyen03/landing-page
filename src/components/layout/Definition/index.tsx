@@ -9,9 +9,9 @@ export default function Definition({}: Props) {
     <section className="mt-[60px] lg:mt-[132px] md:mt-[78px] px-5 md:px-[100px] lg:px-[120px]">
       <div className="flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row justify-between mb-[60px] gap-x-[100px]">
         <div className="flex-1">
-          <h3 className="text-[34px] md:text-[42px] lg:text-[52px] relative font-Anton font-normal">
+          <h3 className="text-[32px] md:text-[42px] lg:text-[52px] relative font-Anton font-normal lg:pr-10">
             Trắc nghiệm tính cách DISC là gì?
-            <img src={discBg} className="absolute right-0 top-[25px] lg:top-[40px] w-[159px] h-[88px] md:w-[209px] md:h-[114px]" />
+            <img src={discBg} className="absolute lg:h-[171px]  right-[15px] lg:w-[314px] md:right-[35px] lg:right-[50px] top-[25px] lg:top-[40px] w-[160px] h-[88px] md:w-[209px] md:h-[114px]" />
           </h3>
         </div>
 
